@@ -1,3 +1,7 @@
 while True:
-	print(input(">>> "))
+	x = input(">>> ")
+	if x == "q":
+		break
+	else:
+		print(x)
 
